@@ -51,7 +51,7 @@ Prerequisites: XAMPP or Laragon with Apache and MySQL running.
 ├── config/ Database connection
 ├── css/ Stylesheets (style.css)
 ├── database/ SQL database dump (rivaro_shoes.sql)
-├── Gambar/ Image assets
+├── gambar/ Image assets
 ├── proses/ Backend logic (auth, cart, orders, chat)
 └── sepatu_online/ Customer pages (index, detail, cart, checkout, login)
 
