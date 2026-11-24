@@ -1,0 +1,173 @@
+/* --- Global Styles --- */
+body {
+  background-color: #f8f9fa;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: black;
+  width: 100%;
+  z-index: 1000;
+  padding: 12px 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Container umum */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 150px 20px 80px 40px;
+}
+
+/* Navbar links */
+.nav a,
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+.nav a:hover,
+.nav-link:hover {
+  color: #3b75c2;
+}
+
+.nav-link.active {
+  color: #007bff;
+  font-weight: bold;
+}
+
+/* User section */
+.user-section a {
+  margin-right: 100px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* User greeting */
+.user-greeting {
+  background-color: #fff;
+  color: #212529;
+  padding: 12px 16px;
+  text-align: center;
+  justify-content: right;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 1rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  margin-bottom: 16px;
+}
+
+/* Product image on card */
+.card-img-top {
+  object-fit: cover;
+  height: 200px;
+}
+
+/* Product image on detail */
+img.img-fluid {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+img.img-fluid:hover {
+  transform: scale(1.05);
+}
+
+/* Flex layouts */
+.d-flex {
+  display: flex;
+  gap: 30px;
+  justify-content: start;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+/* Detail Page Custom */
+.detail-container {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.detail-box h2 {
+  font-weight: bold;
+}
+
+/* Image container di detail */
+.image-box {
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Detail container di detail */
+.detail-box {
+  flex: 1;
+  min-width: 300px;
+}
+
+/* Tombol close (X) */
+.btn-close {
+  background-color: #ff4d4d;
+  border-radius: 50%;
+  padding: 8px;
+  opacity: 1;
+}
+
+.btn-close:hover {
+  background-color: #e60000;
+}
+
+/* Tombol Tambah ke Keranjang */
+.btn-success {
+  background-color: #28a745;
+  color: white;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+}
+
+/* Tombol Beli Sekarang */
+.btn-primary {
+  background-color: #007bff;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Tombol Chat */
+.btn-info {
+  background-color: #17a2b8;
+  color: white;
+}
+
+.btn-info:hover {
+  background-color: #138496;
+}
+
+/* Link style for chat button */
+a.btn-info {
+  display: inline-block;
+  text-decoration: none;
+}
+
+/* Hover effect tombol */
+button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

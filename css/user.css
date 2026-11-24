@@ -1,0 +1,174 @@
+body {
+  background-color: #f8f9fa;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: black;
+  width: 100%;
+  z-index: 1000;
+}
+
+/* Logo styling */
+header img {
+  max-height: 80px;
+}
+
+/* User section (keranjang, masuk, logout) */
+.user-section a {
+  margin-left: 10px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.user-greeting {
+  background-color: #f8f9fa;
+  color: #212529;
+  padding: 12px 16px;
+  justify-content: center;
+  text-align: center;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 1rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  margin-bottom: 16px;
+  margin-top: 150px;
+}
+
+/* Navbar / Menu Navigasi */
+.nav a,
+.nav-link {
+  margin: 5px 10px;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+
+.nav a:hover,
+.nav-link:hover {
+  color: #3b75c2;
+}
+
+.sidebar {
+  background-color: #fff;
+  border-right: 1px solid #ddd;
+  min-height: 100vh;
+  padding-top: 30px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.05);
+  margin-top: 150px;
+}
+
+.sidebar h5 {
+  font-weight: bold;
+  color: #333;
+}
+
+.sidebar a {
+  display: block;
+  padding: 10px 20px;
+  color: #555;
+  text-decoration: none;
+  border-left: 4px solid transparent;
+  transition: all 0.2s ease-in-out;
+}
+
+.sidebar a:hover {
+  background-color: #f1f1f1;
+  color: #007bff;
+  border-left: 4px solid #007bff;
+}
+
+.sidebar a.active {
+  background-color: #e9f5ff;
+  color: #007bff;
+  border-left: 4px solid #007bff;
+  font-weight: bold;
+}
+
+.form-section {
+  padding: 40px;
+  background-color: #fff;
+  min-height: 100vh;
+  margin-top: 150px;
+}
+
+.form-section h3 {
+  color: #333;
+  margin-bottom: 30px;
+}
+
+label {
+  font-weight: 500;
+  color: #444;
+}
+
+input.form-control,
+select.form-control {
+  border-radius: 6px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+input.form-control:focus,
+select.form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.1rem rgba(0, 123, 255, 0.25);
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.list-group-item.active {
+  background-color: #0d6efd;
+  color: white;
+  font-weight: bold;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  padding: 10px 20px;
+  font-weight: 500;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #004a99;
+}
+
+.table-responsive {
+  margin-bottom: 100px;
+}
+
+.jarak {
+  margin-top: 150px;
+  padding: 20px;
+}
+
+.table {
+  background: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.table th,
+.table td {
+  vertical-align: middle;
+}
+
+.table th {
+  background-color: #f1f1f1;
+}
+
+.badge {
+  font-size: 0.9em;
+}
