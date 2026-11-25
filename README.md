@@ -2,7 +2,7 @@
 
 An online shoe store web application built with native PHP and MySQL. Developed as a final project for the Advanced Database Project (_Proyek Basis Data Lanjut_) course at Universitas Bengkulu (Group 5), where I served as the team lead.
 
-**Demo:** [FILL: https://rivaro-shoes.freehosting.dev/sepatu_online/index.php]
+**Demo:** [Live demo](https://rivaro-shoes.freehosting.dev/sepatu_online/index.php)
 
 ![Store home view](docs/home.png)
 
